@@ -44,7 +44,20 @@ int main()
 	delete[] d5;
 	*/
 	Dice* d6[4] = {nullptr}; // statiskt allokerad array innehållande Dice pekare med värde null
-	
+	d6[0] = new Dice(12);
+	d6[1] = new Dice(17);
+	for (int i = 0; i < 2; i++)
+	{
+		d6[i]->toss();
+		cout << d6[i]->getValue() << " ";
+	}
+
+	//Återlämna objekten men inte arrayen
+	for (int i = 0; i < 2; i++)
+	{
+		delete d6[i];
+	}
+	cout <<endl;
 	//En pekare av typen dice kan användas för att
 	//- peka ut ett dynamiskt allokerat objekt av typen Dice
 	//- peka ut en dynamiskt allokerad array innehållande Dice-objekt

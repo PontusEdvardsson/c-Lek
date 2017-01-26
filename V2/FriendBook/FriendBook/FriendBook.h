@@ -7,13 +7,16 @@
 using namespace std;
 class FriendBook
 {
+public:
+	static const int CAP = 10;
 private:
 	// member variables and helperfunctions
 	int nrOfFriends;
-	int capacity;
+	//int capacity;
 	string title;
-	Friend* friends;
-	void expand();
+	//Friend* friends;
+	Friend* friends[CAP];
+	//void expand(); // privat hjälpfunktion
 public:
 	FriendBook(string title= "unknown");
 	~FriendBook();
