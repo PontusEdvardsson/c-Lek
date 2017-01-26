@@ -1,0 +1,23 @@
+Imdb-rating
+Titel
+Genre
+Prod.år
+Regissör
+Skådespelare
+Producenter
+Upplösning
+
+etc.etc.
+
+.
+
+min 4  max 10 egenskaper
+
+Klass som heter movie movie.h, movie.cpp
+
+movieSystem.cpp med main() function
+array med typen movie (gärna dynamiskt allokerad)
+
+Funktioner: Lägga till, visa alla filmer, ta bort(lägg sista på platsen där du tog bort en)(linjär sökning på titel med t.e.x getTitle()), 
+	    söka film(titel, genre etc), spara på textfil(movies.txt (först står antalet filmer som en int, sedan objekten efter index med en egenskap per rad.
+		      anropa for-loop som loopar genom txt-filen som lägger in filmerna i objekt igenom vid uppstart)) 

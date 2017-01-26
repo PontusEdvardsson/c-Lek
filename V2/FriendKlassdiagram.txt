@@ -1,0 +1,11 @@
+Friend
+---------------------------------
+-name: text
+-birthDate: heltal
+.................................
+//Antal publica medlemmar
+
+
+_____________________________________
+
+FriendBook
