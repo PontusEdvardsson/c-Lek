@@ -6,6 +6,11 @@ using namespace std;
 
 //konstruktor
 
+Album::Album(string artist, string title, int releaseYear)
+{
+
+
+}
 
 //destruktor
 

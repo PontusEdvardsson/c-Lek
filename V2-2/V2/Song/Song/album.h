@@ -19,7 +19,7 @@ private:
 	Song* *Song;
 		//privata funktioner
 	void expand();
-	void initiate();
+	void initiate(int from = 0);
 	void find(string artist, string genre, string name, int duration)const;
 public:
 	//publika members
