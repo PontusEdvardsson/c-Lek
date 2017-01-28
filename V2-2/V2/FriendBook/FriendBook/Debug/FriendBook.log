@@ -1,0 +1,5 @@
+﻿  FriendBookSystem.cpp
+  FriendBook.cpp
+  Friend.cpp
+c:\users\pontu\desktop\v2-2\v2\friendbook\friendbook\friend.cpp(16): error C2600: 'Friend::~Friend': cannot define a compiler-generated special member function (must be declared in the class first)
+  Generating Code...
